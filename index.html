@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>mypage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/cstyle0.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="index_page" id="index_page">
+        <div class="header">
+            <div class="info">
+                <div class="name">NAME name</div>
+                <div class="email">Email xxxxxx@xxx.com</div>
+            </div>
+            <div class="data">
+                <div class="work">Work Updated</div>
+                <div class="time">7/29 2020</div>
+            </div>
+        </div>
+
+        <div class="left_block">
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="bottom">
+
+            <div class="logo">
+                <span>... A quick glimpse of </span>
+                <img src="./static/logo1.png" alt="">
+                <span>’S</span>
+            </div>
+
+            <div class="tab_work">
+                <div class="works" id="works">
+                    <span class="under" id='under'>WORK</span>
+                    <span class="top" id="top">S</span>
+                </div>
+
+                <!-- 底部tab栏 -->
+
+                <div class="tab_bar">
+                    <div class="box" id="box">
+                        <div class="hd" id="hd">
+                            <span class="">MYSELF</span>
+                            <span>EXPERIENCE</span>
+                            <span>ABILITIES</span>
+                            <span>CONTACT</span>
+                        </div>
+                        <div class="bd" id="bd">
+
+                            <span class="">
+                                <div class="item1"><br>A passionate<h5> Visual Designer / UI & UE / Art Director </h5> with a wide range skills and experiences to helping clients communicate and solve problems through
+                            creative visual solutions and starting from the concept up tp final results.
+                        </div>
+                        </span>
+
+                            <span>
+
+                        <div class="item2">
+                             <h4>Previously with</h4>
+                            <div><p>Freelancer</p> <p> Y2011- present</p></div>
+                            <div><p>Vancouver Freeze Dry Ltd.</p> <p>Y2019-Y2020</p></div>
+                            <div><p>Babysoft Corporation</p> <p> Y2015-Y2018</p></div>
+                            <div><p>Sylvia Cosmetic Enterprise INC.</p> <p>Y2014-Y2015</p></div>
+                        </div>
+
+
+                             </span>
+
+                            <span><div class="item3">
+                                <div>Pycharm, SublimeText 2, Github;
+                                    <br> Sketch, Axure & OmniGraﬄe; etc.</div>
+                                <img src="./static/3.png" alt=""></div></span>
+                            <span><div class="item4"> WX - TEL - ZCOOL </div></span>
+                        </div>
+                    </div>
+                    <script src="./js/main.js"></script>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 侧边栏 -->
+
+    <div class="left" id="left">
+        <div class="back_home" id="back_home">
+            <img src="./static/logo2.png" alt="">
+            <p> <span>Back</span> <span>Home</span></p>
+        </div>
+        <div class="left_bar" id="left_bar">
+            <P>WORKS</P>
+            <span class="active">Packing</span>
+            <span>UI, UE & App</span>
+            <span>UE & Web</span>
+            <span>Motion Graphic</span>
+            <span>Characters & Animation</span>
+            <span>Banner/Billboard/Poster</span>
+            <span>Exhibition</span>
+        </div>
+    </div>
+
+    <div class="content" id="content">
+        <div class="active" id="ccontent"><iframe id="iframe_weaper" src="./template/cpage1.html" style="width: 100%; height: 100%;" scrolling="yes" frameborder="0"></iframe></div>
+        <div><iframe src="./template/cpage2.html" style="width: 100%; height: 100%;" scrolling="yes" frameborder="0"></iframe></div>
+        <div> <iframe src="./template/cpage3.html" style="width: 100%; height: 100%;" scrolling="yes" frameborder="0"></iframe></div>
+        <div> <iframe src="./template/cpage4.html" style="width: 100%; height: 100%;" scrolling="yes" frameborder="0"></iframe></div>
+        <div> <iframe src="./template/cpage5.html" style="width: 100%; height: 100%;" scrolling="yes" frameborder="0"></iframe></div>
+        <div> <iframe src="./template/cpage6.html" style="width: 100%; height: 100%;" scrolling="yes" frameborder="0"></iframe></div>
+        <div> <iframe src="./template/cpage7.html" style="width: 100%; height: 100%;" scrolling="yes" frameborder="0"></iframe></div>
+    </div>
+
+
+    <script type="text/javascript">
+        var left_bar = document.getElementById("left_bar");
+        var hspan = left_bar.getElementsByTagName("span");
+        var content = document.getElementById("content");
+        var bspan = content.getElementsByTagName("div");
+        var back_home = document.getElementById('back_home')
+        var left = document.getElementById("left")
+        var works = document.getElementById('works')
+        var index_page = document.getElementById('index_page')
+        var under = document.getElementById('under')
+            // var ccontent = document.getElementById('ccontent')
+            // var iframe_weaper = document.getElementById('iframe_weaper')
+
+        works.onclick = function() {
+            index_page.style.display = "none"
+            left.classList.add('show_left')
+            content.classList.add('show_content')
+        }
+
+
+        back_home.onclick = function() {
+            left.classList.remove("show_left")
+            content.classList.remove("show_content")
+            content.classList.add("hidden_content")
+            content.classList.add("hidden_left")
+            index_page.style.display = "block"
+        }
+
+
+
+        for (var i = 0; i < hspan.length; i++) {
+            hspan[i].setAttribute("index", i);
+            hspan[i].onmouseover = function() {
+                for (var j = 0; j < hspan.length; j++) {
+                    hspan[j].removeAttribute("class");
+                }
+                this.className = "active";
+                var num = this.getAttribute("index");
+                for (var k = 0; k < bspan.length; k++) {
+                    bspan[k].removeAttribute("class");
+                }
+                bspan[num].className = "active";
+
+            };
+        }
+    </script>
+
+</body>
+
+</html>
