@@ -71,6 +71,7 @@ body::-moz-selection {
     font: 500 20px "Oswald";
     font-size: .125rem;
     font-weight: 700;
+    text-height:90%;
 }
 
 .bottom {
@@ -182,20 +183,21 @@ body::-moz-selection {
 .left_bar span {
     text-align: left;
     margin-top: .05rem;
-    color: #494949;
+    color: #787878;
     font: 400 14px "Roboto";
+    line-height:95%
     /* background-color: greenyellow; */
 }
 
 .left_bar p {
     margin-top: 10px;
     font: 500 20px "Oswald";
-    color: #4a4a4a;
+    color: #303030;
 }
 
 .left_bar span.active {
     font: 500 14px "Roboto";
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: #fff100;
     opacity: 0.88;
 }
@@ -238,11 +240,12 @@ body::-moz-selection {
 .back_home {
     position: absolute;
     top: .4375rem;
-    left: .45rem;
+    left: .58rem;
     width: .5625rem;
     min-width: .5rem;
     height: .825rem;
     text-align: right;
+    line-height:90%
     /* overflow: hidden; */
 }
 
@@ -256,9 +259,9 @@ body::-moz-selection {
     display: block;
     height: .125rem;
     color: rgb(255, 255, 255);
-    text-indent: .1rem;
-    margin-top: -7px;
-    margin-left: -0.54rem;
+    text-indent: .005rem;
+    margin-top: -12px;
+    margin-left: -0.5rem;
 }
 
 .back_home p span:nth-child(1) {

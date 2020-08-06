@@ -52,7 +52,7 @@
 }
 
 .bd .item1 {
-    font: 400 .125rem "Roboto";
+    font: 400 .100rem "Roboto";
     color: #4a4a4a;
     text-align: left;
     padding-left: 3em;
@@ -63,7 +63,7 @@
 }
 
 .bd .item2 {
-    font: 400 .10625rem 'Roboto';
+    font: 400 .100rem 'Roboto';
 }
 
 .bd .item2 div {
@@ -72,12 +72,15 @@
     font-family: "Roboto"; */
     display: flex;
     justify-content: space-between;
-    text-indent: 3em;
+    text-indent: 2em;
     ;
 }
 
 .bd .item2 h4 {
     font: 500 .125rem "Roboto";
+    text-align:left;
+    text-indent:2em;
+
 }
 
 .bd .item3 {
