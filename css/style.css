@@ -32,12 +32,13 @@ body::-moz-selection {
 }
 
 .header .info .name {
-    font: 500 .125rem "Roboto";
+    font: 500 .0875rem "Roboto";
+    color:#080808;
 }
 
 .header .info .email {
-    font-size: .0875rem;
-    font: 400 .0875rem "Roboto";
+    font-size: .075rem;
+    font: 400 .075rem "Roboto";
     color: #a1a1a1;
 }
 
@@ -45,7 +46,7 @@ body::-moz-selection {
     width: .0625rem;
     height: .625rem;
     margin-left: 5vw;
-    margin-top: 0rem;
+    margin-top: 0.25 rem;
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
@@ -53,7 +54,7 @@ body::-moz-selection {
 }
 
 .left_block div:nth-child(1) {
-    height: .125rem;
+    height: .175rem;
     background-color: black;
 }
 
@@ -68,10 +69,10 @@ body::-moz-selection {
 
 .data .work,
 .time {
-    font: 500 20px "Oswald";
-    font-size: .125rem;
-    font-weight: 700;
-    text-height:90%;
+    font: 500 .088rem "Oswald";
+    font-size: .088rem;
+    font-weight: 500;
+
 }
 
 .bottom {

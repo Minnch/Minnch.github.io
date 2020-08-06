@@ -31,7 +31,7 @@
 
 .bd {
     width: 100%;
-    height: 150px;
+    height: 180px;
 }
 
 .bd span {
@@ -40,7 +40,7 @@
     height: 100%;
     /* background-color: rgb(233, 181, 135); */
     /* border: 1px solid sienna; */
-    text-align: center;
+    text-align: top;
     display: none;
     z-index: -999;
 }
@@ -52,10 +52,10 @@
 }
 
 .bd .item1 {
-    font: 400 .100rem "Roboto";
+    font: 400 .1rem "Roboto";
     color: #4a4a4a;
     text-align: left;
-    padding-left: 3em;
+    padding-left: 2em;
 }
 
 .bd .item1 h5 {
@@ -63,25 +63,23 @@
 }
 
 .bd .item2 {
-    font: 400 .100rem 'Roboto';
+    padding-top:10%
+    font: 400 .0875rem 'Roboto';
 }
 
 .bd .item2 div {
-    font: 400 .125rem "Roboto";
+
+    font: 400 .0875rem "Roboto";
     /* font-size: 20px;
     font-family: "Roboto"; */
     display: flex;
     justify-content: space-between;
     text-indent: 2em;
-    ;
+    color: #4a4a4a;
+    text-height:100%
 }
 
-.bd .item2 h4 {
-    font: 500 .125rem "Roboto";
-    text-align:left;
-    text-indent:2em;
 
-}
 
 .bd .item3 {
     position: relative;
