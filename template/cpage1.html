@@ -27,12 +27,11 @@
         
         .header {
             padding-top: .438rem;
-            padding-bottom: .5rem;
+            padding-bottom: 100px;
             width: 100%;
-            height: .875rem;
             display: flex;
             justify-content: space-between;
-            /* border: 1px solid rgb(18, 15, 168); */
+            /* border: 1px solrgb(29, 28, 80)68); */
             background-color: white;
         }
         
@@ -62,10 +61,12 @@
         }
         
         .middle {
+            box-sizing: content-box;
             width: 84vw;
-            margin-top: 8vw;
+            margin-top: 100px;
             margin: 0 auto;
-            background-color: #cccccc;
+            /* 子页面背景 */
+            background-color: #ffffff;
         }
         
         .middle .banner {
@@ -100,7 +101,7 @@
         .part2 {
             width: 100%;
             height: 6.25rem;
-            background-color: #777777;
+            background-color: rgba(238, 238, 238);
             margin-top: .195313rem;
             margin-top: .390625rem;
         }
@@ -113,34 +114,51 @@
         .part3 {
             width: 100%;
             height: 12.5rem;
-            background-color: #777777;
+            background-color: rgba(238, 238, 238);
             margin-top: .195313rem;
-            margin-top: .390625rem;
         }
+        /* .part3 video {
+            width: 100%;
+            margin: 0 auto;
+        } */
         
         .other {
-            margin-top: 96px;
             font: 500 .125rem "Roboto";
-            width: 100%;
-            height: 100px;
+            width: 84vw;
+            height: 25vw;
+            margin: 0 auto;
+            margin-top: .1875rem;
             line-height: 170px;
             background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .other div {
+            width: 45%;
+            background-color: royalblue;
+        }
+        
+        .other img {
+            width: 100%;
+            height: 100%;
         }
         
         .foot {
-            width: 100%;
-            margin: auto;
+            width: 84vw;
+            margin: 0 auto;
+            margin-top: .1875rem;
             margin-bottom: 66px;
             display: flex;
             flex-wrap: wrap;
-            background-color: #ffffff;
+            background-color: rgba(238, 238, 238);
         }
         
         .item {
             box-sizing: border-box;
             width: 33.333333%;
             height: 2.34375rem;
-            background-color: #777777;
+            background-color: rgba(238, 238, 238);
         }
         
         .foot .item:hover {
@@ -154,8 +172,11 @@
         <!--头部 -->
         <div class="header">
             <div class="content_text_left">
-                <p>child Gain Chews</p>
-                <span>The product is aimed at the nutrition and health of children from 1 to 12 years old. It uses freeze-dried fruits and vegetables as raw materials to develop a non-damaging snack. I participated in the research and development and promotion of this original product throughout the entire process, such as the accounting of production costs, material printing, transportation and export costs, and established wholesale prices, retail prices, import and export prices, and so on. According to the characteristics of the product, according to my brand and marketing strategy after redefining, I selected 5 different animals that are most popular with children, carried out creative character design, and based on this, independently designed the visual system and packaging of the product. This includes independent packaging of products, retail store display packaging, and value sets. Communicating and supervising the printing of materials throughout the process, and guided the animated promotional videos of this series of products, which were broadcast at the ciie 2019 exhibition
+                <p>Fruit Chrew Package Serise </p>
+                <span>A product’s packaging should appeal to its ideal consumer; it’s important to know who that
+                    consumer is before you start the design process. Products for older adults may need larger text.
+                    Alternatively, items geared towards an aﬄuent customer will need to consider materials that create a
+                    feeling of luxury.
                 </span>
             </div>
             <div class="content_text_middle">
@@ -166,15 +187,12 @@
             </div>
             <div class="content_text_right">
                 <p>Role</p>
-                <span>Charactor Design </span>
-                <span>Packaging </span>
-                <span>Food Label regulation </span>
-                <span>Box Layout</span>
+                <span>Charactor Design Packaging Food Label regulation Box Layout
                 </span>
             </div>
         </div>
         <!--中间内容 -->
-        <div class="middle">
+        <div class="middle" oncontextmenu="return false" onselectstart="return false"   ondragstart="return false" onbeforecopy="return false" oncopy=document.selection.empty() onselect=document.selection.empty()>
             <div class="banner">
                 <img src="../static/info (3).jpg" alt="">
             </div>
@@ -183,13 +201,15 @@
                 <div class="item"><img src="../static/info (2).jpg" alt=""></div>
             </div>
             <div class="part2"><img src="../static/info (1).png" alt=""></div>
-            <div class="part3"></div>
+            <!-- 自动播放autoplay=1 -->
+            <div class="part3"><iframe style="width:84vw; height: 300px; margin: 0 auto;" src="//player.bilibili.com/player.html?rel=0&amp;autoplay=0&aid=456477115&bvid=BV1A5411a75j&cid=215266659&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
         </div>
         <!-- 底部 -->
-        <div class="other">
-            <p>Other Projects</p>
+        <div class="other" oncontextmenu="return false" onselectstart="return false"   ondragstart="return false" onbeforecopy="return false" oncopy=document.selection.empty() onselect=document.selection.empty()>
+            <div><img src="../static/other.png" alt=""></div>
+            <div><img src="../static/other.png" alt=""></div>
         </div>
-        <div class="foot">
+        <div class="foot" oncontextmenu="return false" onselectstart="return false"   ondragstart="return false" onbeforecopy="return false" oncopy=document.selection.empty() onselect=document.selection.empty()>
             <div class="item"></div>
             <div class="item"></div>
             <div class="item"></div>
