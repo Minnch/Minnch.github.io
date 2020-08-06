@@ -28,14 +28,12 @@
     width: 5.46875rem;
 }
 
-
-
 .header div {
     margin-left: 1em;
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .header div p {
@@ -43,12 +41,10 @@
     color: black;
 }
 
-p1{vertical-align:text-bottom;}
-
 .header div span {
     font: 300 .1175rem "Roboto";
     columns: #4a4a44;
-    line-height: 120%;
+    line-height: 20px;
 }
 
 .middle {
@@ -116,25 +112,12 @@ p1{vertical-align:text-bottom;}
 } */
 
 .other {
+    margin-top: 96px;
     font: 500 .125rem "Roboto";
     width: 84vw;
-    height: 25vw;
     margin: 0 auto;
-    margin-top: .1875rem;
+    height: 100px;
     line-height: 170px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-}
-
-.other div {
-    width: 45%;
-    background-color: royalblue;
-}
-
-.other img {
-    width: 100%;
-    height: 100%;
 }
 
 .foot {
