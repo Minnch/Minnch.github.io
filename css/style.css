@@ -10,7 +10,7 @@ body::selection {
 
 body::-moz-selection {
     color: #FFFFFF;
-    background-color: ;
+    background-color: #fff100;
     text-shadow: none;
 }
 
@@ -69,7 +69,7 @@ body::-moz-selection {
 
 .data .work,
 .time {
-    font: 500 .088rem "Oswald";
+    font: 500 20px "Oswald";
     font-size: .088rem;
     font-weight: 500;
 
@@ -184,21 +184,20 @@ body::-moz-selection {
 .left_bar span {
     text-align: left;
     margin-top: .05rem;
-    color: #787878;
+    color: #494949;
     font: 400 14px "Roboto";
-    line-height:95%
     /* background-color: greenyellow; */
 }
 
 .left_bar p {
     margin-top: 10px;
     font: 500 20px "Oswald";
-    color: #303030;
+    color: #4a4a4a;
 }
 
 .left_bar span.active {
     font: 500 14px "Roboto";
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-color: #fff100;
     opacity: 0.88;
 }
@@ -228,7 +227,8 @@ body::-moz-selection {
     margin: 0 auto;
     text-align: center;
     font-size: 450px;
-    background-color: #cccccc;
+    /* 二级页面背景 */
+    background-color: #ffffff;
     color: yellowgreen;
 }
 
@@ -241,12 +241,11 @@ body::-moz-selection {
 .back_home {
     position: absolute;
     top: .4375rem;
-    left: .58rem;
+    left: .45rem;
     width: .5625rem;
     min-width: .5rem;
     height: .825rem;
     text-align: right;
-    line-height:90%
     /* overflow: hidden; */
 }
 
@@ -260,9 +259,9 @@ body::-moz-selection {
     display: block;
     height: .125rem;
     color: rgb(255, 255, 255);
-    text-indent: .005rem;
-    margin-top: -12px;
-    margin-left: -0.5rem;
+    text-indent: .1rem;
+    margin-top: -7px;
+    margin-left: -0.54rem;
 }
 
 .back_home p span:nth-child(1) {
