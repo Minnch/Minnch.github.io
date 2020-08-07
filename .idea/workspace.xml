@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3e7915-194f-4e7a-a0cd-f4efeaf0d775" name="Default Changelist" comment="" />
+    <list default="true" id="5e3e7915-194f-4e7a-a0cd-f4efeaf0d775" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/cpage1.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/cpage1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/cpage2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/cpage3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/cpage4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/cpage5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/cpage6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/cpage7.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
