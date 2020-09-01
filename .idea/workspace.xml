@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3e7915-194f-4e7a-a0cd-f4efeaf0d775" name="Default Changelist" comment="" />
+    <list default="true" id="5e3e7915-194f-4e7a-a0cd-f4efeaf0d775" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/info (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/info (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/info (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/info (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/BaiduAntivirusWebsite.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/BaiduAntivirusWebsite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/BoumiMonitorApp.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/BoumiMonitorApp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/ChildGainChews.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/ChildGainChews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/CiiE2019Shanghai.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/CiiE2019Shanghai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/JiayouLogisticWebsite.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/JiayouLogisticsWebsite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/Posters.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/Posters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/TheTributetoClassic.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/TheTributetoClassic.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
