@@ -75,15 +75,14 @@
     height: 100%;
 }
 
-.part2 {
+.content {
     width: 100%;
     height: 6.25rem;
-    background-color: rgba(238, 238, 238);
     margin-top: .195313rem;
     margin-top: .390625rem;
 }
 
-.part2 img {
+.content img {
     width: 100%;
     height: 100%;
 }

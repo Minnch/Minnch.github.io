@@ -13,157 +13,170 @@
             padding: 0;
             margin: 0;
         }
-        
+
          ::selection {
-            background: #fff100;
-            color: rgb(0, 0, 0);
+            /*background: #fff100;
+            color: rgb(0, 0, 0);*/
         }
-        
+
         .cpage {
             width: 100%;
             height: 100%;
             /* border: 1px solid green; */
         }
-        
+
         .header {
             padding-top: .438rem;
             padding-bottom: 0.25rem;
-            width: 100%;
+            width: 90%;
+            margin: 0 auto;
             display: flex;
+            overflow: hidden;
             justify-content: space-between;
-            /* border: 1px solrgb(29, 28, 80)68); */
-            background-color: white;
         }
 
-         .content_text_right {
-            width: 5rem;
+        .content_text_right {
+            margin-left:.225rem;
+            width: 2rem;
         }
-        
+
         .header div {
-            margin-left: 1em;
             display: flex;
             flex-direction: column;
             align-items: start;
             justify-content: flex-start;
-
         }
 
-
-        
         .header div p {
             font: 500 .125rem "Roboto";
             color: black;
-            text-height:130%;
+            text-height: 130%;
         }
-        
+
         .header div span {
             font: 300 .1rem "Roboto";
             columns: #4a4a44;
             line-height: 135%;
         }
-        
+
         .middle {
             box-sizing: content-box;
-            width: 92vw;
+            width: 100%;
             margin-top: 100px;
             margin: 0 auto;
-            /* 子页面背景 */
-            background-color: #ffffff;
+            /* 子页面背景
+            background-color: #ffffff;*/
         }
-        
+
         .middle .banner {
             margin-top: .35rem;
             padding-top: .325rem;
-            width: 100%;
-            height: 3000px;
-            background-color: #777777;
+            width: 90%;
+            margin: 0 auto;
+            /*height: 500px;
+            background-color: #777777;*/
         }
-        
+
         .middle .banner img {
             display: block;
             margin: 0 auto;
             /* width: 100%;
             height: 100%; */
         }
-        
-        .middle .part1 {
+
+        .middle .lr {
             margin-top: .15625rem;
             display: flex;
+            width: 90%;
+            margin: 0.4rem auto;
+            flex-direction: column;
             justify-content: space-between;
         }
-        
-        .part1 .item {
+
+        .lr .item {
+            width: 100%;
+            height: 2.734375rem;
+        }
+
+        .lr .item div {
             width: 48%;
             height: 2.734375rem;
-            background-color: #777777;
+            /*background-color: #777777;*/
         }
-        
+
+        .lr .content_left {
+            display: flex;
+            /*justify-content: flex-start;*/
+            justify-content:space-between;
+            margin-bottom: 0.2rem;
+        }
+
+        .lr .content_right {
+            display: flex;
+            justify-content: flex-end;
+        }
+
         .part1 .item img {
-            width: 100%;
-            height: 100%;
+            width: Auto;
+            height: Auto;
         }
-        
-        .part2 {
-            width: 100%;
-            height: 6.25rem;
-            background-color: rgba(238, 238, 238);
+
+        .content {
+            width: 90%;
+            margin: 0 auto;
+            height: Auto;
             margin-top: .195313rem;
-            margin-top: .390625rem;
         }
-        
-        .part2 img {
+
+        .content img {
             width: 100%;
             height: 100%;
         }
-        
+
         .part3 {
             width: 100%;
-            height: 100%;
-            background-color: rgba(238, 238, 238);
+            height: 12.5rem;
+            background-color: rgb(236, 54, 54);
             margin-top: .195313rem;
+            margin-bottom: 0.5rem;
         }
-        /* .part3 video {
-            width: 100%;
-            margin: 0 auto;
-        } */
-        
+
         .other {
             margin-top: 96px;
             font: 500 .125rem "Roboto";
-            width: 92vw;
+            width: 100vw;
             margin: 0 auto;
             height: 100px;
             line-height: 170px;
         }
-        
-        .foot {
-            width: 92vm;
+
+        .footer {
+            width: 90%;
             margin: 0 auto;
             margin-top: .1875rem;
-            margin-bottom: 66px;
+            margin-bottom: 20px;
             display: flex;
             flex-wrap: wrap;
-            background-color: rgba(238, 238, 238);
+            /*background-color: rgba(238, 238, 238);*/
         }
-        
-        .item {
+
+        .footer .item {
             box-sizing: border-box;
             width: 33.333333%;
-            height: 2.34375rem;
-            background-color: rgba(238, 238, 238);
+           /* height: 2.34375rem; */
         }
-        
-        .foot .item img {
+
+        .footer .item img {
             width: 99%;
             height: 99%;
         }
-        
-        .foot .item img:hover {
+
+        .footer .item img:hover {
             width: 100%;
             height: 100%;
         }
-        
-        .foot .item:hover {
+
+        .footer .item:hover {
             /* background-color: #fff100; */
         }
     </style>
@@ -200,7 +213,7 @@
             </div>
             <div class="part2"><img src="../static/info (1).png" alt=""></div>
             <!-- 自动播放autoplay=1 -->
-            <div class="part3"><iframe width="1220" height="800" src="https://www.youtube.com/embed/GrDKt7NwfPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="content"><iframe width="1220" height="800" src="https://www.youtube.com/embed/GrDKt7NwfPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
         <!-- 底部
         <div class="other">Other Projects

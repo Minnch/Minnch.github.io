@@ -260,8 +260,8 @@ body::-moz-selection {
     height: .125rem;
     color: rgb(255, 255, 255);
     text-indent: .38rem;
-    margin-top: -20px;
-    margin-left: -0.5rem;
+    margin-top: -0.060rem;
+    margin-left: -0.475rem;
 }
 
 .back_home p span:nth-child(1) {
@@ -436,7 +436,7 @@ body::-moz-selection {
     font: 500 .0875rem "Roboto";
     position: absolute;
     bottom: 0;
-    right: 5%;
+    right: 15%;
 }
 
 .bd .item3 img {

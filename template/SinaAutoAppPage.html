@@ -9,152 +9,161 @@
     <!-- <link rel="stylesheet" href="../css/tempalta.css"> -->
     <title>Sina Auto APP</title>
     <style>
-        * {
+           * {
             padding: 0;
             margin: 0;
         }
-        
+
          ::selection {
-            background: #fff100;
-            color: rgb(0, 0, 0);
+            /*background: #fff100;
+            color: rgb(0, 0, 0);*/
         }
-        
+
         .cpage {
             width: 100%;
             height: 100%;
             /* border: 1px solid green; */
         }
-        
+
         .header {
             padding-top: .438rem;
             padding-bottom: 0.25rem;
-            width: 100%;
+            width: 90%;
+            margin: 0 auto;
             display: flex;
-            justify-content: flex-start;
-            /* border: 1px solrgb(29, 28, 80)68); */
-            background-color: white;
+            overflow: hidden;
+            justify-content: space-between;
         }
 
-
-          .content_text_left {
-            width: 8rem;
+        .content_text_right {
+            margin-left:.225rem;
+            width: 2.25rem;
         }
 
-
-
-        
         .header div {
-            margin-left: 1em;
             display: flex;
             flex-direction: column;
             align-items: start;
             justify-content: flex-start;
-
         }
 
-
-        
         .header div p {
             font: 500 .125rem "Roboto";
             color: black;
-            text-height:130%;
+            text-height: 130%;
         }
-        
+
         .header div span {
             font: 300 .1rem "Roboto";
             columns: #4a4a44;
             line-height: 135%;
         }
-        
+
         .middle {
             box-sizing: content-box;
-            width: 92vw;
+            width: 100%;
             margin-top: 100px;
             margin: 0 auto;
-            /* 子页面背景 */
-            background-color: #ffffff;
+            /* 子页面背景
+            background-color: #ffffff;*/
         }
-        
+
         .middle .banner {
             margin-top: .35rem;
             padding-top: .325rem;
-            width: 100%;
-            height: 3000px;
-            background-color: #777777;
+            width: 90%;
+            margin: 0 auto;
+            /*height: 500px;
+            background-color: #777777;*/
         }
-        
+
         .middle .banner img {
             display: block;
             margin: 0 auto;
             /* width: 100%;
             height: 100%; */
         }
-        
-        .middle .part1 {
+
+        .middle .lr {
             margin-top: .15625rem;
             display: flex;
+            width: 90%;
+            margin: 0.4rem auto;
+            flex-direction: column;
             justify-content: space-between;
         }
-        
-        .part1 .item {
+
+        .lr .item {
+            width: 100%;
+            height: 2.734375rem;
+        }
+
+        .lr .item div {
             width: 48%;
             height: 2.734375rem;
-            background-color: #777777;
+            /*background-color: #777777;*/
         }
-        
+
+        .lr .content_left {
+            display: flex;
+            /*justify-content: flex-start;*/
+            justify-content:space-between;
+            margin-bottom: 0.2rem;
+        }
+
+        .lr .content_right {
+            display: flex;
+            justify-content: flex-end;
+        }
+
         .part1 .item img {
-            width: 100%;
-            height: 100%;
+            width: Auto;
+            height: Auto;
         }
-        
-        .part2 {
-            width: 100%;
-            height: 6.25rem;
-            background-color: rgba(238, 238, 238);
+
+        .content {
+            width: 90%;
+            margin: 0 auto;
+            height: Auto;
             margin-top: .195313rem;
-            margin-top: .390625rem;
         }
-        
-        .part2 img {
+
+        .content img {
             width: 100%;
             height: 100%;
         }
-        
+
         .part3 {
             width: 100%;
             height: 12.5rem;
-            background-color: rgba(238, 238, 238);
+            background-color: rgb(236, 54, 54);
             margin-top: .195313rem;
+            margin-bottom: 0.5rem;
         }
-        /* .part3 video {
-            width: 100%;
-            margin: 0 auto;
-        } */
-        
+
         .other {
             margin-top: 96px;
             font: 500 .125rem "Roboto";
-            width: 84vw;
+            width: 100vw;
             margin: 0 auto;
             height: 100px;
             line-height: 170px;
         }
-        
+
         .foot {
-            width: 84vw;
+            width: 90%;
             margin: 0 auto;
             margin-top: .1875rem;
-            margin-bottom: 66px;
+            margin-bottom: 20px;
             display: flex;
             flex-wrap: wrap;
             background-color: rgba(238, 238, 238);
         }
-        
-        .item {
+
+        .foot .item {
             box-sizing: border-box;
             width: 33.333333%;
-            height: 2.34375rem;
-            background-color: rgba(238, 238, 238);
+           /* height: 2.34375rem; */
         }
         
         .foot .item img {
@@ -186,8 +195,7 @@
                 <p>Client</p>
                 <span>Sina China</span>
                 <p><br>Role</p>
-                <span>UE </span>
-                <span>UI</span>
+                <span>UE & UI </span>
                 <span>App Design</span>
                 <span>Visual Communication</span>
                 </span>
@@ -195,18 +203,16 @@
         </div>
         <!--中间内容 -->
         <div class="middle" oncontextmenu="return false" onselectstart="return false"   ondragstart="return false" onbeforecopy="return false" oncopy=document.selection.empty() onselect=document.selection.empty()>
-            <div class="banner">
-                <img src="../static/info (3).jpg" alt="">
-            </div>
-            <div class="part1">
+            <div class="content"><img src="../static/SinaAuto/SinaAuto.png" alt=""></div>
+            <!--<div class="part1">
                 <div class="item"><img src="../static/info (1).jpg" alt=""></div>
                 <div class="item"><img src="../static/info (2).jpg" alt=""></div>
             </div>
             <div class="part2"><img src="../static/info (1).png" alt=""></div>
-            <!-- 自动播放autoplay=1 -->
+             自动播放autoplay=1
             <div class="part3"><iframe style="width:84vw; height: 300px; margin: 0 auto;" src="//player.bilibili.com/player.html?rel=0&amp;autoplay=0&aid=456477115&bvid=BV1A5411a75j&cid=215266659&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>
         </div>
-        <!-- 底部 -->
+         底部
         <div class="other">Other Projects
         </div>
         <div class="foot" oncontextmenu="return false" onselectstart="return false"   ondragstart="return false" onbeforecopy="return false" oncopy=document.selection.empty() onselect=document.selection.empty()>
@@ -217,7 +223,7 @@
             <div class="item"></div>
             <div class="item"></div>
         </div>
-    </div>
+    </div>-->
 </body>
 
 </html>
