@@ -3,20 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="5e3e7915-194f-4e7a-a0cd-f4efeaf0d775" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Baidu/Baidu1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/Baidu/Baidu1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Baidu/Baidu2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/Baidu/Baidu2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Baidu/Baidu3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/Baidu/Baidu3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Baidu/Baidu4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/Baidu/Baidu4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Baidu/baidu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/Baidu/baidu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Boumi/Boumi1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Boumi/Boumi2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Boumi/Boumi3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/CIIE2019.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/CIIE2019.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ChildGainChews/childchews1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ChildGainChews/childchews1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ChildGainChews/childchews2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/ChildGainChews/childchews2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ChildGainChews/childchews4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Jiayou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/SinaAuto/SinaAuto.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/SinaAuto/SinaAuto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/SpaceSnack/Spacesnack.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/SpaceSnack/Spacesnack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TheTribute/Tribute.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/TheTribute/Tribute.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TheTribute/tribute.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/TheTribute/tribute.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/TheTribute/tribute2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/TheTribute/tribute2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/BaiduAntivirusWebsite.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/BaiduAntivirusWebsite.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/BoumiMonitorApp.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/BoumiMonitorApp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/ChildGainChews.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/ChildGainChews.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/CiiE2019Shanghai.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/CiiE2019Shanghai.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/JiayouLogisticsWebsite.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/JiayouLogisticsWebsite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/Logofolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/Logofolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/OffiskyBusinessPhoneSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/OffiskyBusinessPhoneSystem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/Posters.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/Posters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/SinaAutoAppPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/SinaAutoAppPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/SpaceSnack.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/SpaceSnack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/TheTributetoClassic.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/TheTributetoClassic.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
