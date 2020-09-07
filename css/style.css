@@ -93,18 +93,21 @@ body::-moz-selection {
     display: flex;
     justify-content: right;
     align-items: flex-end;
+
 }
 
 .logo img {
     width: .825rem;
     height: .9375rem;
     vertical-align: text-bottom;
+    z-index: -110;
 }
 
 .logo span {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
+    z-index: 110;
 }
 
 .tab_work {
@@ -223,7 +226,7 @@ body::-moz-selection {
 .content div {
     display: none;
     width: 90%;
-    height: 7200px;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
     font-size: 450px;
@@ -360,13 +363,13 @@ body::-moz-selection {
 
 .hd {
     width: 100%;
-    height: 30px;
+    height: 32px;
     font: 500 14px "Roboto";
     /* border: 1px solid green; */
     background-color: #fff200;
     display: flex;
     justify-content: space-around;
-    line-height: 30px;
+    line-height: 32px;
     opacity: 0.8;
 }
 
@@ -377,7 +380,7 @@ body::-moz-selection {
 
 .bd {
     width: 100%;
-    height: 180px;
+    height: 220px;
 }
 
 .bd span {
@@ -437,6 +440,7 @@ body::-moz-selection {
     position: absolute;
     bottom: 0;
     right: 15%;
+    padding-left: 2em;
 }
 
 .bd .item3 img {
@@ -449,12 +453,20 @@ body::-moz-selection {
 }
 
 .bd .item4 {
-    font: 500 30px "Roboto";
+    font: 400 .0875rem "Roboto";
+    color: #4a4a4a;
+    padding-top: 0.12rem;
     width: 100%;
     height: 100%;
     background-color: rgb(255, 255, 255);
-    line-height: .9375rem;
+    line-height: .01rem;
+    margin-left: -0.125rem;
+    justify-content: start;
+    padding-left: 4em;
 }
+
+
+
 
 
 /* ******************************* */
